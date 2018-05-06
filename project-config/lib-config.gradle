@@ -1,0 +1,14 @@
+ext {
+
+    GROUP = "co.bxvip.android.lib"
+    localRepoPath = "file://${projectDir}/libs-pro-local-repo"
+    isLocalReop = true
+
+    libModelConfigs = [
+            "lib-ui-widget"            : [
+                    libName       : "lib-ui-widget",
+                    libVersionName: "1.0.1",
+                    libType       : "aar"
+            ]
+    ]
+}
