@@ -89,7 +89,7 @@ class TitleBar @JvmOverloads constructor(context: Context, attrs: AttributeSet? 
                 addRule(CENTER_IN_PARENT)
             }
             text = titleText
-            maxEms = 8
+            maxEms = 12
             //android:ellipsize="end"
             ellipsize = TextUtils.TruncateAt.END
             gravity = Gravity.CENTER
