@@ -37,7 +37,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     compileOnly "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    compileOnly 'com.github.bxvip:android-support:26.0.2.7'
+    compileOnly androidSupport
     compileOnly repluginplugin
 }
 
