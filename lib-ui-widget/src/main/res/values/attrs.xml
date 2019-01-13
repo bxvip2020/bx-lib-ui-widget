@@ -1,35 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="TitleBar">
-
-        <attr name="leftTextVisible" format="boolean" />
-        <attr name="titleVisible" format="boolean" />
-        <attr name="rightTextVisible" format="boolean" />
-
-        <attr name="leftText" format="string" />
-        <attr name="titleText" format="string" />
-        <attr name="rightText" format="string" />
-
-        <attr name="leftTextSize" format="dimension" />
-        <attr name="titleTextSize" format="dimension" />
-        <attr name="rightTextSize" format="dimension" />
-
-        <attr name="leftTextColor" format="color" />
-        <attr name="titleTextColor" format="color" />
-        <attr name="rightTextColor" format="color" />
-
-        <attr name="leftImgVisible" format="boolean" />
-        <attr name="rightImgVisible" format="boolean" />
-
-        <attr name="leftImg" format="reference" />
-        <attr name="rightImg" format="reference" />
-        <attr name="titleRightImg" format="reference" />
-        <attr name="titleScroll" format="boolean" />
-
-        <attr name="titleBarLayoutId" format="reference" />
-
-    </declare-styleable>
-
     <declare-styleable name="CircleImageView">
         <attr name="civ_BorderWidth" format="dimension" />
         <attr name="civ_BorderColor" format="color" />
