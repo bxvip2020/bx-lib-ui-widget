@@ -3,19 +3,22 @@ apply from: './project-config/lib-config.gradle'
 apply from: './project-config/config.gradle'
 
 buildscript {
+
     ext.kotlin_version = '1.2.31'
+    ext.gradle_plugin_version = '3.1.4'
+    ext.replugin_version = '2.3.0'
+
     repositories {
         google()
         jcenter()
     }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.1'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
-        classpath 'com.qihoo360.replugin:replugin-plugin-gradle:2.2.4'
 
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+    dependencies {
+        classpath "com.android.tools.build:gradle:$gradle_plugin_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.qihoo360.replugin:replugin-plugin-gradle:$replugin_version"
+
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
     }
 }
 

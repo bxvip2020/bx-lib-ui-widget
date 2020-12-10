@@ -36,9 +36,9 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
+    compileOnly 'com.github.bxvip2020:android-support:26.0.2.11.12'
     compileOnly "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    compileOnly androidSupport
-    compileOnly repluginplugin
+    compileOnly "com.qihoo360.replugin:replugin-plugin-lib:$replugin_version"
 }
 
 task androidJavadocs(type: Javadoc) {
